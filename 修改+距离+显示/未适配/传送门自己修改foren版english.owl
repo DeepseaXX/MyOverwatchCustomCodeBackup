@@ -1,0 +1,43 @@
+
+variables
+{
+	player:
+		26: AA
+		27: AB
+		28: ThisNode
+        29: ThisPoint
+		30: SpeedToggle
+}
+
+rule("cheat")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		IS BUTTON HELD(Event Player, Button(Reload)) == True;
+		IS BUTTON HELD(Event Player, Button(Crouch)) == True;
+		IS BUTTON HELD(Event Player, Button(Ability 2)) == False;
+		IS BUTTON HELD(Event Player, Button(Jump)) == False;
+		IS BUTTON HELD(Event Player, Button(Interact)) == False;
+	}
+
+	actions
+	{
+        Event Player.ThisPoint = 1;
+		While(Event Player.ThisPoint > 0 && Event Player.ThisPoint <= Count Of(Global.A));
+			If(Event Player.F[Event Player.ThisPoint] != True&& Global.A[Event Player.ThisPoint]!=0);
+					Teleport(Event Player, Nearest Walkable Position(Global.A[Event Player.ThisPoint]));
+					Event Player.ThisPoint = Count Of(Global.P) + 1000;
+			Else;
+				Event Player.ThisPoint = Event Player.ThisPoint + 1;
+			End;
+		End;
+	}
+}
+

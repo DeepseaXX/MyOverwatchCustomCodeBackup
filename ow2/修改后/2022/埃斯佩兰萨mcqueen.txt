@@ -1,0 +1,2123 @@
+settings
+{
+	main
+	{
+		Description: "列文虎克找东西 McQueen Ver.\r\n制作 : CEAX8\r\n物品列表：人行横道 x6\r\n饮水处 x6\n公鸡 x14\r\n摆钟 x12\r\n扬声器 x4\r\n监控 x8\r\n'Centro Histórico' x2\r\n--单品--\r\n红色咖啡机\r\n麦克风\r\n三条鱼\r\n床\r\n全息图\r\n水龙头\r\n人行横道 标志\r\n'Caravela'"
+		Mode Name: "列文虎克找东西 By McQueen"
+	}
+
+	lobby
+	{
+		Map Rotation: Paused
+		Max Spectators: 6
+		Max Team 1 Players: 7
+		Max Team 2 Players: 0
+		Return To Lobby: Never
+		Swap Teams After Match: No
+	}
+
+	modes
+	{
+		Skirmish
+		{
+			enabled maps
+			{
+				Esperança 0
+			}
+		}
+
+		General
+		{
+			Game Mode Start: Immediately
+			Hero Limit: Off
+			Kill Cam: Off
+			Kill Feed: Off
+			Respawn Time Scalar: 0%
+			Spawn Health Packs: Disabled
+		}
+	}
+
+	heroes
+	{
+		General
+		{
+			Ability Cooldown Time: 50%
+			Movement Speed: 110%
+			Primary Fire: Off
+			Quick Melee: Off
+			Receive Headshots Only: On
+			Ultimate Generation: 10%
+			Ultimate Generation - Combat: 0%
+			Ultimate Generation - Passive: 0%
+
+			Ana
+			{
+				Biotic Grenade: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Sleep Dart: Off
+				Ultimate Ability Nano Boost: Off
+			}
+
+			Ashe
+			{
+				Coach Gun: Off
+				Dynamite: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability B.O.B.: Off
+			}
+
+			Baptiste
+			{
+				Immortality Field: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Regenerative Burst: Off
+				Secondary Fire: Off
+				Ultimate Ability Amplification Matrix: Off
+			}
+
+			Bastion
+			{
+				A-36 Tactical Grenade: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Reconfigure: Off
+				Ultimate Ability Configuration: Artillery: Off
+			}
+
+			Brigitte
+			{
+				Barrier Shield: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Repair Pack: Off
+				Shield Bash: Off
+				Ultimate Ability Rally: Off
+				Whip Shot: Off
+			}
+
+			Cassidy
+			{
+				Combat Roll: Off
+				Magnetic Grenade: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Ultimate Ability Deadeye: Off
+			}
+
+			D.Va
+			{
+				Boosters: Off
+				Defense Matrix: Off
+				Micro Missiles: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Self-Destruct: Off
+			}
+
+			Doomfist
+			{
+				Power Block: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Rocket Punch: Off
+				Seismic Slam: Off
+				Ultimate Ability Meteor Strike: Off
+			}
+
+			Echo
+			{
+				Flight: Off
+				Focusing Beam: Off
+				Glide: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Sticky Bombs: Off
+				Ultimate Ability Duplicate: Off
+			}
+
+			Genji
+			{
+				Deflect: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Swift Strike: Off
+				Ultimate Ability Dragonblade: Off
+			}
+
+			Hanzo
+			{
+				Lunge: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Sonic Arrow: Off
+				Storm Arrows: Off
+				Ultimate Ability Dragonstrike: Off
+			}
+
+			Junker Queen
+			{
+				Carnage: Off
+				Commanding Shout: Off
+				Jagged Blade: Off
+				Jagged Blade Knockback Scalar: 200%
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Rampage: Off
+			}
+
+			Junkrat
+			{
+				Concussion Mine: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Steel Trap: Off
+				Ultimate Ability RIP-Tire: Off
+			}
+
+			Kiriko
+			{
+				Primary Fire: Off
+				Protection Suzu: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Swift Step: Off
+				Ultimate Ability Kitsune Rush: Off
+			}
+
+			Lúcio
+			{
+				Amp It Up: Off
+				Crossfade: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Soundwave: Off
+				Ultimate Ability Sound Barrier: Off
+			}
+
+			Mei
+			{
+				Cryo-Freeze: Off
+				Ice Wall: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Ultimate Ability Blizzard: Off
+			}
+
+			Mercy
+			{
+				Guardian Angel: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Regeneration: Off
+				Resurrect: Off
+				Secondary Fire: Off
+				Ultimate Ability Valkyrie: Off
+			}
+
+			Moira
+			{
+				Biotic Orb: Off
+				Fade: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Ultimate Ability Coalescence: Off
+			}
+
+			Orisa
+			{
+				Energy Javelin: Off
+				Fortify: Off
+				Javelin Spin: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Terra Surge: Off
+			}
+
+			Pharah
+			{
+				Concussive Blast: Off
+				Hover Jets: Off
+				Jump Jet: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Barrage: Off
+			}
+
+			Reaper
+			{
+				Primary Fire: Off
+				Quick Melee: Off
+				Shadow Step: Off
+				Ultimate Ability Death Blossom: Off
+				Wraith Form: Off
+			}
+
+			Reinhardt
+			{
+				Barrier Field: Off
+				Charge: Off
+				Fire Strike: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Earthshatter: Off
+			}
+
+			Roadhog
+			{
+				Chain Hook: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Take a Breather: Off
+				Ultimate Ability Whole Hog: Off
+			}
+
+			Sigma
+			{
+				Accretion: Off
+				Experimental Barrier: Off
+				Kinetic Grasp: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Gravitic Flux: Off
+			}
+
+			Sojourn
+			{
+				Disruptor Shot: Off
+				Power Slide: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Railgun Alt Fire: Off
+				Secondary Fire: Off
+				Ultimate Ability Overclock: Off
+			}
+
+			Soldier: 76
+			{
+				Biotic Field: Off
+				Helix Rockets: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Sprint: Off
+				Ultimate Ability Tactical Visor: Off
+			}
+
+			Sombra
+			{
+				Hack: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Stealth: Off
+				Translocator: Off
+				Ultimate Ability EMP: Off
+			}
+
+			Symmetra
+			{
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Sentry Turret: Off
+				Teleporter: Off
+				Ultimate Ability Photon Barrier: Off
+			}
+
+			Torbjörn
+			{
+				Deploy Turret: Off
+				Overload: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+				Ultimate Ability Molten Core: Off
+			}
+
+			Tracer
+			{
+				Blink: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Recall: Off
+				Ultimate Ability Pulse Bomb: Off
+			}
+
+			Widowmaker
+			{
+				Grappling Hook: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Infra-Sight: Off
+				Venom Mine: Off
+			}
+
+			Winston
+			{
+				Barrier Projector: Off
+				Jump Pack: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Ultimate Ability Primal Rage: Off
+			}
+
+			Wrecking Ball
+			{
+				Adaptive Shield: Off
+				Grappling Claw: Off
+				Piledriver: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Roll: Off
+				Ultimate Ability Minefield: Off
+			}
+
+			Zarya
+			{
+				No Ammunition Requirement: On
+				Particle Barrier: Off
+				Primary Fire: Off
+				Projected Barrier: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+			}
+
+			Zenyatta
+			{
+				Orb of Discord: Off
+				Orb of Harmony: Off
+				Primary Fire: Off
+				Quick Melee: Off
+				Secondary Fire: Off
+			}
+
+			disabled heroes
+			{
+				Baptiste
+				Bastion
+				Genji
+				Hanzo
+				Kiriko
+				Sigma
+				Winston
+				Wrecking Ball
+			}
+		}
+	}
+}
+
+variables
+{
+	player:
+		26: AA
+		27: AB
+		28: ThisNode
+        29: ThisPoint
+		30: SpeedToggle
+}
+
+rule("// Made by McQueen#31361")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+}
+
+rule("beginning of the game")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Set Match Time(3600);
+		Global.N = 1;
+		Global.G = 0;
+		Global.H = Vector(0, -99, 0);
+		Global.T = -1;
+		Global.Q = 0;
+	}
+}
+
+rule("人行横道 6개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(74.860, -3, -58.373);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(42.415, -6.027, -68.008);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(20.010, -5.872, -61.494);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-20, -5.872, -60.400);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-41.962, -5.980, -68);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-74.940, -2.941, -58.416);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("饮水处 6개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(-37.580, -1, -89.422);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(42.600, -1.060, -20);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(5.150, -1.030, -58.500);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-17.430, -5.220, -85.562);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-90.950, -2.320, -54.982);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(6.370, 0.770, 7.352);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("公鸡 14개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(99.090, 0.230, -84.800);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(105.410, 0.200, -71.090);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(49.743, -0.763, -89.630);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(30.720, -4.780, -84.627);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(32.753, -4.043, -60.190);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(40.070, 1.150, -53.367);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(31.053, 1.933, -53.420);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(25.110, 1.240, 7.427);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-43.283, -4.053, -55.780);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-42.320, -4.760, -88.457);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-74.883, 2.253, -50.750);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-70, -1.813, -46.080);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-101.073, 0.223, -78.560);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(20.620, 3.530, 10.480);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("摆钟 12개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(75.895, 0.627, -89.658);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(85, 3.572, -43.940);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(44.700, 1.602, -47.267);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(29.262, 2.620, -56.316);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-37.690, -3.501, -60.446);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-68.200, 3.660, -61.945);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-61.390, -1.420, -61.025);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-80.212, -1.480, -54.020);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-107.550, 2.150, -40.240);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-109.300, 0.388, -66.714);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-78.803, 0.528, -87.140);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-75.713, 2.308, -82.964);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("扬声器 4개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(26.100, 4.950, 10.090);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(19.060, 4.950, 0.850);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(35.100, -1.300, -60.080);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(28.980, -1.340, -53);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("监控 8개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(-101.700, 7.610, -85.800);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-112.740, 7.600, -66.684);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-81.602, 7.606, -95.030);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-44, 5.150, -48.290);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-25, 5.180, 8.390);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(5.450, 5.200, 15.330);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(101.860, 7.610, -85.560);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(114.870, 7.640, -62.990);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("'Centro Histórico' 2개")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(-5.500, 1.940, -36.430);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(22.630, -1.150, -22.812);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("单品 (8개)")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.G += 1;
+		Global.I = 0;
+		Global.A[Global.N] = Vector(-25.990, 1.480, 3.480);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(32.050, -4.470, -58.630);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-14.400, -5.380, -84.350);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-82.240, 1.670, -51.810);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(-34.580, 1.700, -56.170);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(68.200, -4.890, -84.670);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(67.650, -0.710, -47.660);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.A[Global.N] = Vector(0, 3.980, 13.540);
+		Global.X[Global.N] = Global.G;
+		Global.I += 1;
+		Global.N += 1;
+		Global.C[Global.G] = Global.I;
+	}
+}
+
+rule("이스페란사 포탈")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Global.P[1] = Vector(-99.040, 0.250, -72.380);
+		Create Effect(All Players(All Teams), Ring, Color(Rose), Global.P[1], 1.300, Visible To);
+		Global.P[2] = Vector(-102.800, 0.450, -74.500);
+		Create Effect(All Players(All Teams), Ring, Color(Rose), Global.P[2], 1.300, Visible To);
+	}
+}
+
+rule("I=============================================================================")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+}
+
+rule("calculating total number of items")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	conditions
+	{
+		Global.O == Null;
+	}
+
+	actions
+	{
+		Global.O = Global.N - 1;
+	}
+}
+
+rule("player found item")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Interact)) == True;
+		Has Status(Event Player, Knocked Down) == False;
+		Event Player.Z == Null;
+	}
+
+	actions
+	{
+		Skip If(Event Player.L != Null, 1);
+		Event Player.L = 1;
+		Skip If(Global.A[Event Player.L] == Null, 18);
+		Skip If(Event Player.F[Event Player.L] == True, 17);
+		Skip If(Distance Between(Event Player, Global.A[Event Player.L]) > 3, 16);
+		Event Player.O = Global.X[Event Player.L];
+		Event Player.Z = Global.A[Event Player.L];
+		Modify Global Variable At Index(D, Event Player.L, Append To Array, Event Player);
+		Event Player.K = Global.A[Event Player.L];
+		Event Player.Q += 1;
+		Event Player.F[Event Player.L] = True;
+		Event Player.G[Global.X[Event Player.L]] += 1;
+		Event Player.M = Event Player.L;
+		Skip If(Event Player.Q == Global.O, 1);
+		Small Message(Event Player, String("{0} / {1}", Event Player.G[Global.X[Event Player.M]], Global.C[Global.X[Event Player.M]]));
+		Skip If(Event Player.G[Event Player.O] < Global.C[Event Player.O], 4);
+		Event Player.A = Global.X[Event Player.L];
+		Play Effect(Event Player, Ring Explosion, Color(Rose), Event Player.Z, 7);
+		Play Effect(Event Player, Buff Impact Sound, Color(White), Event Player, 30);
+		Play Effect(Event Player, Good Pickup Effect, Color(Purple), Event Player.Z, 1);
+		Event Player.L = 999;
+		Event Player.L += 1;
+		Skip If(Event Player.L >= Global.O - 4, 8);
+		Skip If(Distance Between(Event Player, Global.A[Event Player.L]) <= 3, 1);
+		Event Player.L += 1;
+		Skip If(Distance Between(Event Player, Global.A[Event Player.L]) <= 3, 1);
+		Event Player.L += 1;
+		Skip If(Distance Between(Event Player, Global.A[Event Player.L]) <= 3, 1);
+		Event Player.L += 1;
+		Skip If(Distance Between(Event Player, Global.A[Event Player.L]) <= 3, 1);
+		Event Player.L += 1;
+		Wait(0.001, Ignore Condition);
+		Skip If(Event Player.L != Global.O + 1, 1);
+		Event Player.J = True;
+		Loop If(Event Player.L <= Global.O);
+		Event Player.L = 1;
+	}
+}
+
+rule("playing yellow effects")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.Z != Null;
+	}
+
+	actions
+	{
+		Play Effect(Event Player, Ring Explosion, Color(Rose), Event Player.Z, 3);
+		Play Effect(Event Player, Buff Impact Sound, Color(White), Event Player, 20);
+		Wait(0.250, Ignore Condition);
+		Event Player.Z = Null;
+		Skip If(Event Player.Q < Global.O, 4);
+		Destroy HUD Text(Event Player.W[1]);
+		Create HUD Text(All Players(All Teams), Null, Null, String("{0} {1} {2}", String("{0} {1}", Hero Icon String(Hero Of(
+			Event Player)), Event Player), Custom String("完成"), String("{0} / {1}", Event Player.Q, Global.O)), Right,
+			101 - Event Player.Q, Color(White), Color(White), Color(Rose), Visible To and String, Default Visibility);
+		Event Player.W[1] = Last Text ID;
+		Abort;
+		Destroy HUD Text(Event Player.W[1]);
+		Create HUD Text(All Players(All Teams), Null, Null, String("{0} {1} {2}", String("{0} {1}", Hero Icon String(Hero Of(
+			Event Player)), Event Player), Custom String("已找到"), String("{0} / {1}", Event Player.Q, Global.O)), Right,
+			101 - Event Player.Q, Color(White), Color(White), Color(White), Visible To and String, Default Visibility);
+		Event Player.W[1] = Last Text ID;
+	}
+}
+
+rule("player spawn")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+	}
+
+	actions
+	{
+		Disable Game Mode HUD(Event Player);
+		Disable Hero HUD(Event Player);
+		Set Jump Vertical Speed(Event Player, 100);
+		Event Player.Q = 0;
+		Modify Global Variable(S, Append To Array, Event Player);
+		Event Player.J = False;
+		Event Player.T = 0;
+		Set Invisible(Event Player, None);
+		Event Player.S = 150;
+		Set Status(Event Player, Null, Invincible, 9999);
+		Create Effect(Event Player, Sparkles, Color(Rose), Event Player.K, 1.300, Visible To Position and Radius);
+		Global.T = 0;
+		Global.Q = 0;
+		Create In-World Text(Event Player, Custom String("♥ 玩得开心 ! ♥"), Vector(-0.392, 18.130, -188.510), 18,
+			Clip Against Surfaces, Visible To and String, Color(Aqua), Visible Never);
+		Create In-World Text(Event Player, Custom String("- Lightning McQueen -"), Vector(-0.392, 6.500, -188.510), 18,
+			Clip Against Surfaces, Visible To and String, Color(Yellow), Visible Never);
+		Event Player.K = Vector(0, -99, 0);
+		Event Player.AB = Last Text ID;
+		Wait(15, Ignore Condition);
+		Small Message(Event Player, String("{0} - {1}", Custom String("[SHIFT]"),Custom String("加速")));
+	}
+}
+
+rule("creating HUD text 1-5")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Global.G < 1, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[1], Global.C[1]), Null, Custom String("人行横道"), Left, 1, Color(
+			Red), Color(White), Color(Red), Visible To and String, Visible Never);
+		Event Player.E[1] = Last Text ID;
+		Skip If(Global.G < 2, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[2], Global.C[2]), Null, Custom String("饮水处"), Left, 2, Color(
+			Orange), Color(White), Color(Orange), Visible To and String, Visible Never);
+		Event Player.E[2] = Last Text ID;
+		Skip If(Global.G < 3, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[3], Global.C[3]), Null, Custom String("公鸡"), Left, 3, Color(
+			Yellow), Color(White), Color(Yellow), Visible To and String, Visible Never);
+		Event Player.E[3] = Last Text ID;
+		Skip If(Global.G < 4, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[4], Global.C[4]), Null, Custom String("摆钟"), Left, 4, Color(
+			Green), Color(White), Color(Green), Visible To and String, Visible Never);
+		Event Player.E[4] = Last Text ID;
+		Skip If(Global.G < 5, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[5], Global.C[5]), Null, Custom String("扬声器"), Left, 5, Color(
+			Turquoise), Color(White), Color(Turquoise), Visible To and String, Visible Never);
+		Event Player.E[5] = Last Text ID;
+	}
+}
+
+rule("creating HUD text 6-10")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Has Spawned(Event Player) == True;
+	}
+
+	actions
+	{
+		Skip If(Global.G < 6, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[6], Global.C[6]), Null, Custom String("监控"), Left, 6, Color(
+			Aqua), Color(White), Color(Aqua), Visible To and String, Visible Never);
+		Event Player.E[6] = Last Text ID;
+		Skip If(Global.G < 7, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[7], Global.C[7]), Null, Custom String("'Centro Histórico'"), Left,
+			7, Color(Blue), Color(White), Color(Blue), Visible To and String, Visible Never);
+		Event Player.E[7] = Last Text ID;
+		Skip If(Global.G < 8, 2);
+		Create HUD Text(Event Player, String("{0} / {1}", Event Player.G[8], Global.C[8]), Null, Custom String("单品 :"), Left, 8, Color(
+			Purple), Color(White), Color(Purple), Visible To and String, Visible Never);
+		Event Player.E[8] = Last Text ID;
+		Create HUD Text(Event Player, Null, Custom String(
+			"红色咖啡机 (红)\r\n麦克风 (橙)\r\n三条鱼 (黄)\r\n床 (蓝绿)\r\n全息图 (天蓝)\r\n水龙头 (水蓝)\r\n人行横道 标志 (紫)\r\n'Caravela' (粉)"), Null,
+			Left, 9, Color(White), Color(White), Color(White), Visible To and String, Visible Never);
+		Event Player.E[9] = Last Text ID;
+		Event Player.A = 0;
+	}
+}
+
+rule("all items found (victory!)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.Q == Global.O;
+		Has Spawned(Event Player) == True;
+	}
+
+	actions
+	{
+		Set Invisible(Event Player, None);
+		Big Message(All Players(All Teams), String("{0} {1} {2}", Hero Icon String(Hero Of(Event Player)), Event Player, String("{0}!",
+			Custom String("完成"))));
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+		Play Effect(Event Player, Good Explosion, Color(Violet), Event Player, 10);
+		Play Effect(Event Player, Ring Explosion, Color(Rose), Event Player, 20);
+		Global.H = Event Player;
+		Communicate(Event Player, Emote Up);
+		Set Slow Motion(80);
+		Wait(1.500, Ignore Condition);
+		Set Slow Motion(100);
+		Wait(3, Ignore Condition);
+		Small Message(Event Player, String("{0} {1}", Custom String("感谢你"), String("{0}!", Event Player)));
+		Wait(15, Ignore Condition);
+		Play Effect(Event Player, Buff Explosion Sound, Color(White), Event Player, 10);
+		Destroy HUD Text(Event Player.AA);
+		Wait(0.250, Ignore Condition);
+		Event Player.AA = Last Text ID;
+	}
+}
+
+rule("create all 60 effects at the beginning of the match")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Create Effect(All Players(All Teams), Sparkles, Color(Aqua), Global.H, 1.500, Visible To Position and Radius);
+		Create Effect(All Players(All Teams), Sparkles, Color(Yellow), Global.H, 1.500, Visible To Position and Radius);
+		Create Effect(Global.D[1], Good Aura, Color(Red), Global.A[1], 0.500, Visible To);
+		Create Effect(Global.D[2], Good Aura, Color(Red), Global.A[2], 0.500, Visible To);
+		Create Effect(Global.D[3], Good Aura, Color(Red), Global.A[3], 0.500, Visible To);
+		Create Effect(Global.D[4], Good Aura, Color(Red), Global.A[4], 0.500, Visible To);
+		Create Effect(Global.D[5], Good Aura, Color(Red), Global.A[5], 0.500, Visible To);
+		Create Effect(Global.D[6], Good Aura, Color(Red), Global.A[6], 0.500, Visible To);
+		Create Effect(Global.D[7], Good Aura, Color(Orange), Global.A[7], 1, Visible To);
+		Create Effect(Global.D[8], Good Aura, Color(Orange), Global.A[8], 1, Visible To);
+		Create Effect(Global.D[9], Good Aura, Color(Orange), Global.A[9], 1, Visible To);
+		Create Effect(Global.D[10], Good Aura, Color(Orange), Global.A[10], 1, Visible To);
+		Create Effect(Global.D[11], Good Aura, Color(Orange), Global.A[11], 1, Visible To);
+		Create Effect(Global.D[12], Good Aura, Color(Orange), Global.A[12], 1, Visible To);
+		Create Effect(Global.D[13], Good Aura, Color(Yellow), Global.A[13], 0.500, Visible To);
+		Create Effect(Global.D[14], Good Aura, Color(Yellow), Global.A[14], 0.500, Visible To);
+		Create Effect(Global.D[15], Good Aura, Color(Yellow), Global.A[15], 0.500, Visible To);
+		Create Effect(Global.D[16], Good Aura, Color(Yellow), Global.A[16], 0.500, Visible To);
+		Create Effect(Global.D[17], Good Aura, Color(Yellow), Global.A[17], 0.500, Visible To);
+		Create Effect(Global.D[18], Good Aura, Color(Yellow), Global.A[18], 0.500, Visible To);
+		Create Effect(Global.D[19], Good Aura, Color(Yellow), Global.A[19], 0.500, Visible To);
+		Create Effect(Global.D[20], Good Aura, Color(Yellow), Global.A[20], 0.500, Visible To);
+		Create Effect(Global.D[21], Good Aura, Color(Yellow), Global.A[21], 0.500, Visible To);
+		Create Effect(Global.D[22], Good Aura, Color(Yellow), Global.A[22], 0.500, Visible To);
+		Create Effect(Global.D[23], Good Aura, Color(Yellow), Global.A[23], 0.500, Visible To);
+		Create Effect(Global.D[24], Good Aura, Color(Yellow), Global.A[24], 0.500, Visible To);
+		Create Effect(Global.D[25], Good Aura, Color(Yellow), Global.A[25], 0.500, Visible To);
+		Create Effect(Global.D[26], Good Aura, Color(Yellow), Global.A[26], 0.500, Visible To);
+		Create Effect(Global.D[27], Good Aura, Color(Green), Global.A[27], 1, Visible To);
+		Create Effect(Global.D[28], Good Aura, Color(Green), Global.A[28], 1, Visible To);
+		Create Effect(Global.D[29], Good Aura, Color(Green), Global.A[29], 1, Visible To);
+		Create Effect(Global.D[30], Good Aura, Color(Green), Global.A[30], 1, Visible To);
+		Create Effect(Global.D[31], Good Aura, Color(Green), Global.A[31], 1, Visible To);
+		Create Effect(Global.D[32], Good Aura, Color(Green), Global.A[32], 1, Visible To);
+		Create Effect(Global.D[33], Good Aura, Color(Green), Global.A[33], 1, Visible To);
+		Create Effect(Global.D[34], Good Aura, Color(Green), Global.A[34], 1, Visible To);
+		Create Effect(Global.D[35], Good Aura, Color(Green), Global.A[35], 1, Visible To);
+		Create Effect(Global.D[36], Good Aura, Color(Green), Global.A[36], 1, Visible To);
+		Create Effect(Global.D[37], Good Aura, Color(Green), Global.A[37], 1, Visible To);
+		Create Effect(Global.D[38], Good Aura, Color(Green), Global.A[38], 1, Visible To);
+		Create Effect(Global.D[39], Good Aura, Color(Turquoise), Global.A[39], 0.700, Visible To);
+		Create Effect(Global.D[40], Good Aura, Color(Turquoise), Global.A[40], 0.700, Visible To);
+		Create Effect(Global.D[41], Good Aura, Color(Turquoise), Global.A[41], 0.700, Visible To);
+		Create Effect(Global.D[42], Good Aura, Color(Turquoise), Global.A[42], 0.700, Visible To);
+		Create Effect(Global.D[43], Good Aura, Color(Aqua), Global.A[43], 0.500, Visible To);
+		Create Effect(Global.D[44], Good Aura, Color(Aqua), Global.A[44], 0.500, Visible To);
+		Create Effect(Global.D[45], Good Aura, Color(Aqua), Global.A[45], 0.500, Visible To);
+		Create Effect(Global.D[46], Good Aura, Color(Aqua), Global.A[46], 0.500, Visible To);
+		Create Effect(Global.D[47], Good Aura, Color(Aqua), Global.A[47], 0.500, Visible To);
+		Create Effect(Global.D[48], Good Aura, Color(Aqua), Global.A[48], 0.500, Visible To);
+		Create Effect(Global.D[49], Good Aura, Color(Aqua), Global.A[49], 0.500, Visible To);
+		Create Effect(Global.D[50], Good Aura, Color(Aqua), Global.A[50], 0.500, Visible To);
+		Create Effect(Global.D[51], Good Aura, Color(Blue), Global.A[51], 1.200, Visible To);
+		Create Effect(Global.D[52], Good Aura, Color(Blue), Global.A[52], 1.200, Visible To);
+		Create Effect(Global.D[53], Good Aura, Color(Red), Global.A[53], 1.200, Visible To);
+		Create Effect(Global.D[54], Good Aura, Color(Orange), Global.A[54], 0.500, Visible To);
+		Create Effect(Global.D[55], Good Aura, Color(Yellow), Global.A[55], 1.200, Visible To);
+		Create Effect(Global.D[56], Good Aura, Color(Turquoise), Global.A[56], 1.200, Visible To);
+		Create Effect(Global.D[57], Good Aura, Color(Sky Blue), Global.A[57], 1.300, Visible To);
+		Create Effect(Global.D[58], Good Aura, Color(Aqua), Global.A[58], 0.600, Visible To);
+		Create Effect(Global.D[59], Good Aura, Color(Purple), Global.A[59], 1, Visible To);
+		Create Effect(Global.D[60], Good Aura, Color(Rose), Global.A[60], 1.500, Visible To);
+	}
+}
+
+rule("player pressed \"F\" key on the empty place")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.J == True;
+		Has Status(Event Player, Knocked Down) == False;
+		Event Player.Q != Global.O;
+	}
+
+	actions
+	{
+		Play Effect(Event Player, Debuff Impact Sound, Color(White), Event Player, 50);
+		Set Status(Event Player, Null, Knocked Down, 1.500);
+		Small Message(Event Player, Custom String("错误"));
+		Event Player.J = False;
+	}
+}
+
+rule("player is knocked down")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.J == True;
+	}
+
+	actions
+	{
+		Wait(1, Ignore Condition);
+		Event Player.R -= 1;
+	}
+}
+
+rule("shift key is pressed (acceleration)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 1)) == True;
+	}
+
+	actions
+	{
+		Set Move Speed(Event Player, Event Player.S);
+	}
+}
+
+rule("shift key is not pressed (slowdown)")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Ability 1)) == False;
+	}
+
+	actions
+	{
+		Set Move Speed(Event Player, 110);
+	}
+}
+
+rule("teleport cooldown")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == True;
+	}
+
+	actions
+	{
+		Wait(2, Ignore Condition);
+		Event Player.B = False;
+		Wait(0.500, Ignore Condition);
+		Loop If Condition Is True;
+	}
+}
+
+rule("teleport 1")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[1] != 0;
+		Distance Between(Event Player, Global.P[1]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[2]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 2")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[2] != 0;
+		Distance Between(Event Player, Global.P[2]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[1]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 3")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[3] != 0;
+		Distance Between(Event Player, Global.P[3]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[4]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 4")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[4] != 0;
+		Distance Between(Event Player, Global.P[4]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[3]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 5")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[5] != 0;
+		Distance Between(Event Player, Global.P[5]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[6]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 6")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[6] != 0;
+		Distance Between(Event Player, Global.P[6]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[5]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 7")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[7] != 0;
+		Distance Between(Event Player, Global.P[7]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[8]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 8")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[8] != 0;
+		Distance Between(Event Player, Global.P[8]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[7]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 9")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[9] != 0;
+		Distance Between(Event Player, Global.P[9]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[10]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 10")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[10] != 0;
+		Distance Between(Event Player, Global.P[10]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[9]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 11")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[11] != 0;
+		Distance Between(Event Player, Global.P[11]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[12]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 12")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Custom String("{0}", Event Player) == Custom String("");
+	}
+
+	actions
+	{
+		Remove Player(Event Player);
+	}
+}
+
+rule("Teleport 13")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[13] != 0;
+		Distance Between(Event Player, Global.P[13]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[14]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 14")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[14] != 0;
+		Distance Between(Event Player, Global.P[14]) <= 2;
+	}
+}
+
+rule("teleport 15")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[15] != 0;
+		Distance Between(Event Player, Global.P[15]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[16]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 16")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[16] != 0;
+		Distance Between(Event Player, Global.P[16]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[15]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 17")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.B == False;
+		Global.P[17] != 0;
+		Distance Between(Event Player, Global.P[17]) <= 2;
+	}
+
+	actions
+	{
+		Teleport(Event Player, Global.P[1]);
+		Event Player.B = True;
+		Play Effect(Event Player, Good Explosion, Color(Rose), Event Player, 5);
+		Play Effect(Event Player, Ring Explosion Sound, Color(White), Event Player, 20);
+	}
+}
+
+rule("teleport 18")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Custom String("{0}", Event Player) == Custom String("솜브라자");
+	}
+
+	actions
+	{
+		Remove Player(Event Player);
+	}
+}
+
+rule("teleport 19")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Custom String("{0}", Event Player) == Custom String("");
+	}
+
+	actions
+	{
+		Remove Player(Event Player);
+	}
+}
+
+rule("teleport 18")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Custom String("{0}", Event Player) == Custom String("");
+	}
+
+	actions
+	{
+		Remove Player(Event Player);
+	}
+}
+
+rule("teleport 20")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Custom String("{0}", Event Player) == Custom String("겸도");
+	}
+
+	actions
+	{
+		Remove Player(Event Player);
+	}
+}
+
+rule("acceleration after finding a group of items")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.A > 0;
+		Event Player.S <= 300;
+		Global.G > 0;
+		Event Player.Q < Global.O;
+	}
+
+	actions
+	{
+		Event Player.S += 150 / Global.G;
+		Wait(1, Ignore Condition);
+		Big Message(Event Player, String("{0} {1}", Custom String("速度"),Custom  String("升级")));
+		Play Effect(Event Player, Buff Impact Sound, Color(White), Event Player, 30);
+		Wait(2, Ignore Condition);
+		Small Message(Event Player, String("{0} - {1}", Custom String("[SHIFT]"),Custom String("加速")));
+	}
+}
+
+rule("player found the last item in the group 1-5")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.A > 0;
+		Event Player.A <= 5;
+	}
+
+	actions
+	{
+		Event Player.N = 1;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[1], Global.C[1]), Icon String(Bolt)), Null, Null,
+			Left, 1, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 2;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[2], Global.C[2]), Icon String(Bolt)), Null, Null,
+			Left, 2, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 3;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[3], Global.C[3]), Icon String(Bolt)), Null, Null,
+			Left, 3, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 4;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[4], Global.C[4]), Icon String(Bolt)), Null, Null,
+			Left, 4, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 5;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[5], Global.C[5]), Icon String(Bolt)), Null, Null,
+			Left, 5, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.A = 0;
+	}
+}
+
+rule("player found the last item in the group 6-10")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Event Player.A > 5;
+		Event Player.A <= 10;
+	}
+
+	actions
+	{
+		Event Player.N = 6;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[6], Global.C[6]), Icon String(Bolt)), Null, Null,
+			Left, 6, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 7;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[7], Global.C[7]), Icon String(Bolt)), Null, Null,
+			Left, 7, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 8;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[8], Global.C[8]), Icon String(Bolt)), Null, Null,
+			Left, 8, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 9;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[9], Global.C[9]), Icon String(Bolt)), Null, Null,
+			Left, 9, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.N = 10;
+		Skip If(Event Player.A != Event Player.N, 2);
+		Destroy HUD Text(Event Player.E[Event Player.N]);
+		Create HUD Text(Event Player, String("{0} {1}", String("{0} / {1}", Global.C[10], Global.C[10]), Icon String(Bolt)), Null, Null,
+			Left, 10, Color(Rose), Color(White), Color(Rose), Visible To and String, Visible Never);
+		Event Player.A = 0;
+	}
+}
+
+rule("infinite match time")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	conditions
+	{
+		Match Time <= 1800;
+	}
+
+	actions
+	{
+		Set Match Time(3600);
+	}
+}
+
+rule("updating data after a player leaves the game")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	conditions
+	{
+		Global.T == 0;
+	}
+
+	actions
+	{
+		Global.R = Global.S[Global.T];
+		Skip If(Global.R == Null, 7);
+		Skip If(Has Spawned(Global.R), 6);
+		Global.Q += 1;
+		Modify Global Variable At Index(D, Global.Q, Remove From Array By Value, Global.R);
+		Wait(0.025, Ignore Condition);
+		Skip If(Global.Q < 60, 1);
+		Modify Global Variable(S, Remove From Array By Value, Global.R);
+		Loop If(Global.Q < 60);
+		Global.T += 1;
+		Global.Q = 0;
+		Wait(0.025, Ignore Condition);
+		Loop If(Global.T < 12);
+	}
+}
+
+rule("bug protection")
+{
+	event
+	{
+		Player Left Match;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Set Slow Motion(100);
+	}
+}
+
+rule("점프력 수치 강화")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Jump)) == True;
+		Has Status(Event Player, Knocked Down) == False;
+		Distance Between(Event Player, Vector(-13.433, 2.550, 2.375)) > 7;
+		Distance Between(Event Player, Vector(-8.341, 7.550, -0.268)) > 4;
+	}
+
+	actions
+	{
+		Apply Impulse(Event Player, Vector(0, 1, 0), 7, To Player, Cancel Contrary Motion);
+		If(Distance Between(Event Player, Vector(29.930, 15.550, -80.743)) <= 4);
+			Apply Impulse(Event Player, Vector(0, 1, 0), 7, To Player, Cancel Contrary Motion);
+		End;
+		If(Distance Between(Event Player, Vector(89.359, 14.504, -97.683)) <= 4);
+			Apply Impulse(Event Player, Vector(0, 1, 0), 7, To Player, Cancel Contrary Motion);
+		End;
+		If(Distance Between(Event Player, Vector(63.261, 17.312, -60.951)) <= 4);
+			Apply Impulse(Event Player, Vector(0, 1, 0), 7, To Player, Cancel Contrary Motion);
+		End;
+		Wait(0, Ignore Condition);
+	}
+}
+
+rule("순위표")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Create HUD Text(All Players(All Teams), Null, Null, Custom String("玩家排行"), Right, -1, Color(White), Color(White), Color(
+			Sky Blue), Visible To and String, Default Visibility);
+	}
+}
+
+rule("Version Address")
+{
+	event
+	{
+		Ongoing - Global;
+	}
+
+	actions
+	{
+		Create HUD Text(All Players(All Teams), Null, Null, String("{0} {1} {2}", Custom String("制作 :"), Hero Icon String(Hero(Reaper)),
+			Custom String("McQueen#31506  韩文代码： CEAX8  制作日 : 22.11.10  系列 : 1")), Top, 0 - 1, Color(White), Color(White), Color(Aqua),
+			Visible To and String, Default Visibility);
+		Create HUD Text(All Players(All Teams), Null, Null, Custom String("版本代码合集 : www.inven.co.kr/board/overwatch/5460/1167 中文交流群 1074896927"), Top,
+			-1, Color(White), Color(White), Color(White), Visible To, Default Visibility);
+	}
+}
+
+rule("상단바")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Create HUD Text(Event Player, Custom String("McQueen 版本★推荐高画质或更高画质★"), Null, Null, Top, 0, Event Player.AB, Color(White),
+			Color(Rose), Visible To Sort Order String and Color, Default Visibility);
+	}
+}
+
+rule("상단바 RGB")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	actions
+	{
+		Event Player.AB = Color(Red);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Orange);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Yellow);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Green);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Turquoise);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Aqua);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Blue);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Violet);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Purple);
+		Wait(0.400, Ignore Condition);
+		Event Player.AB = Color(Rose);
+		Wait(0.400, Ignore Condition);
+		Loop;
+	}
+}
+
+rule("맥퀸 에디터")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Custom String("{0}", Event Player) == Custom String("McQueen");
+	}
+
+	actions
+	{
+		Create In-World Text(All Players(All Teams), Custom String("PRODUCER"), Event Player, 1.500, Clip Against Surfaces,
+			Visible To Position and String, Color(Rose), Default Visibility);
+	}
+}
+
+rule("cheat")
+{
+	event
+	{
+		Ongoing - Each Player;
+		All;
+		All;
+	}
+
+	conditions
+	{
+		Is Button Held(Event Player, Button(Reload)) == True;
+		Is Button Held(Event Player, Button(Crouch)) == True;
+		Is Button Held(Event Player, Button(Ability 2)) == False;
+		Is Button Held(Event Player, Button(Jump)) == False;
+		Is Button Held(Event Player, Button(Interact)) == False;
+	}
+
+	actions
+	{
+		Event Player.ThisPoint = 1;
+		While(Event Player.ThisPoint > 0 && Event Player.ThisPoint <= Count Of(Global.A));
+			If(Event Player.F[Event Player.ThisPoint] != True && Global.A[Event Player.ThisPoint] != 0);
+				Teleport(Event Player, Nearest Walkable Position(Global.A[Event Player.ThisPoint]));
+				Event Player.ThisPoint = Count Of(Global.P) + 1000;
+			Else;
+				Event Player.ThisPoint = Event Player.ThisPoint + 1;
+			End;
+		End;
+	}
+}
+
